@@ -1,0 +1,31 @@
+header{
+  background-color: yellow;
+  width:100%;
+  height:50px;
+}
+.top-wrapper{
+  background-image:url(https://assetsnffrgf-a.akamaihd.net/assets/m/502015711/univ/art/502015711_univ_pnr_lg.jpg);
+  background-size:cover;
+  font-size:15px;
+  color:yellow;
+  padding:100px;
+}
+.top-wrapper  h1{
+ opacity:0.95;
+ letter-spacing:10px;
+ background-color: blue;
+ width:200px;
+}
+.top-wrapper a{
+  margin-top:100px;
+  padding-right:10px;
+  font-size:30px;
+  font-weight:normal;
+  background-color:yellow;
+}
+.btn-wrapper:hover{
+  opacity:0.8;
+}
+.btn-wrapper{
+  display:inline-block;
+}
