@@ -20,6 +20,23 @@
     <div class = lesson-wrapper>
     </div>
     <div class = message-wrapper>
+      <form action="./send.php" method="post">
+      <p>
+        送信先
+      </p>
+      <input type="text" name="to">
+      <p>
+        メールのタイトル
+      </p>
+      <input type="text" name="title">
+      <p>
+        本文
+      </p>
+      <textarea name="content" cols="50" rows="5"></textarea>
+      <p>
+        <input type="submit" name="send" value="送信">
+      </p>
+    </form>
     </div>
     <footer></footer>
   </body>
